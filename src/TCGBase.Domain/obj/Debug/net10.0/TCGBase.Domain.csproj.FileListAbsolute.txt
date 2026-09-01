@@ -1,0 +1,12 @@
+C:\Projetos\tcgbase\src\TCGBase.Domain\bin\Debug\net10.0\TCGBase.Domain.deps.json
+C:\Projetos\tcgbase\src\TCGBase.Domain\bin\Debug\net10.0\TCGBase.Domain.dll
+C:\Projetos\tcgbase\src\TCGBase.Domain\bin\Debug\net10.0\TCGBase.Domain.pdb
+C:\Projetos\tcgbase\src\TCGBase.Domain\obj\Debug\net10.0\TCGBase.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\tcgbase\src\TCGBase.Domain\obj\Debug\net10.0\TCGBase.Domain.AssemblyInfoInputs.cache
+C:\Projetos\tcgbase\src\TCGBase.Domain\obj\Debug\net10.0\TCGBase.Domain.AssemblyInfo.cs
+C:\Projetos\tcgbase\src\TCGBase.Domain\obj\Debug\net10.0\TCGBase.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\tcgbase\src\TCGBase.Domain\obj\Debug\net10.0\TCGBase.Domain.sourcelink.json
+C:\Projetos\tcgbase\src\TCGBase.Domain\obj\Debug\net10.0\TCGBase.Domain.dll
+C:\Projetos\tcgbase\src\TCGBase.Domain\obj\Debug\net10.0\refint\TCGBase.Domain.dll
+C:\Projetos\tcgbase\src\TCGBase.Domain\obj\Debug\net10.0\TCGBase.Domain.pdb
+C:\Projetos\tcgbase\src\TCGBase.Domain\obj\Debug\net10.0\ref\TCGBase.Domain.dll
