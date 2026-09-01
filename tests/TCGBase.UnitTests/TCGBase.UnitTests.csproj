@@ -18,4 +18,9 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\TCGBase.Domain\TCGBase.Domain.csproj" />
+    <ProjectReference Include="..\..\src\TCGBase.Application\TCGBase.Application.csproj" />
+  </ItemGroup>
+
 </Project>
