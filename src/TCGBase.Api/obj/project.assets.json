@@ -36,6 +36,43 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "TCGBase.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "TCGBase.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TCGBase.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TCGBase.Application.dll": {}
+        }
+      },
+      "TCGBase.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/TCGBase.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TCGBase.Domain.dll": {}
+        }
+      },
+      "TCGBase.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "TCGBase.Application": "1.0.0",
+          "TCGBase.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TCGBase.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TCGBase.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -75,11 +112,28 @@
         "microsoft.openapi.2.7.5.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "TCGBase.Application/1.0.0": {
+      "type": "project",
+      "path": "../TCGBase.Application/TCGBase.Application.csproj",
+      "msbuildProject": "../TCGBase.Application/TCGBase.Application.csproj"
+    },
+    "TCGBase.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TCGBase.Domain/TCGBase.Domain.csproj",
+      "msbuildProject": "../TCGBase.Domain/TCGBase.Domain.csproj"
+    },
+    "TCGBase.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../TCGBase.Infrastructure/TCGBase.Infrastructure.csproj",
+      "msbuildProject": "../TCGBase.Infrastructure/TCGBase.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.OpenApi >= 10.0.11"
+      "Microsoft.AspNetCore.OpenApi >= 10.0.11",
+      "TCGBase.Application >= 1.0.0",
+      "TCGBase.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -115,7 +169,14 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\tcgbase\\src\\TCGBase.Application\\TCGBase.Application.csproj": {
+              "projectPath": "C:\\Projetos\\tcgbase\\src\\TCGBase.Application\\TCGBase.Application.csproj"
+            },
+            "C:\\Projetos\\tcgbase\\src\\TCGBase.Infrastructure\\TCGBase.Infrastructure.csproj": {
+              "projectPath": "C:\\Projetos\\tcgbase\\src\\TCGBase.Infrastructure\\TCGBase.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

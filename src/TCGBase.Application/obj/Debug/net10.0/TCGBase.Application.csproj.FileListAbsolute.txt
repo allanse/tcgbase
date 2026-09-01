@@ -10,3 +10,7 @@ C:\Projetos\tcgbase\src\TCGBase.Application\obj\Debug\net10.0\TCGBase.Applicatio
 C:\Projetos\tcgbase\src\TCGBase.Application\obj\Debug\net10.0\refint\TCGBase.Application.dll
 C:\Projetos\tcgbase\src\TCGBase.Application\obj\Debug\net10.0\TCGBase.Application.pdb
 C:\Projetos\tcgbase\src\TCGBase.Application\obj\Debug\net10.0\ref\TCGBase.Application.dll
+C:\Projetos\tcgbase\src\TCGBase.Application\bin\Debug\net10.0\TCGBase.Domain.dll
+C:\Projetos\tcgbase\src\TCGBase.Application\bin\Debug\net10.0\TCGBase.Domain.pdb
+C:\Projetos\tcgbase\src\TCGBase.Application\obj\Debug\net10.0\TCGBase.Application.csproj.AssemblyReference.cache
+C:\Projetos\tcgbase\src\TCGBase.Application\obj\Debug\net10.0\TCGBase..C6F01F51.Up2Date

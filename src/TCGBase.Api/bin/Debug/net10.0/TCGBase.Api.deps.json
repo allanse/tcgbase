@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v10.0": {
       "TCGBase.Api/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": "10.0.11"
+          "Microsoft.AspNetCore.OpenApi": "10.0.11",
+          "TCGBase.Application": "1.0.0",
+          "TCGBase.Infrastructure": "1.0.0"
         },
         "runtime": {
           "TCGBase.Api.dll": {}
@@ -30,6 +32,37 @@
           "lib/net8.0/Microsoft.OpenApi.dll": {
             "assemblyVersion": "2.7.5.0",
             "fileVersion": "2.7.5.0"
+          }
+        }
+      },
+      "TCGBase.Application/1.0.0": {
+        "dependencies": {
+          "TCGBase.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TCGBase.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TCGBase.Domain/1.0.0": {
+        "runtime": {
+          "TCGBase.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TCGBase.Infrastructure/1.0.0": {
+        "dependencies": {
+          "TCGBase.Application": "1.0.0",
+          "TCGBase.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TCGBase.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       }
@@ -54,6 +87,21 @@
       "sha512": "sha512-0FA67RSnRM4tcBKqiqVu/HPdZ9+QOKbmeRjxRUGTCjPU4C0bmUhd97Dso7Yild5P7nOV6GxJ2xrK0Kv/O9xp0w==",
       "path": "microsoft.openapi/2.7.5",
       "hashPath": "microsoft.openapi.2.7.5.nupkg.sha512"
+    },
+    "TCGBase.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TCGBase.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TCGBase.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
