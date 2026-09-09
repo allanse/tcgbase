@@ -243,7 +243,7 @@ Redis may be introduced if a measurable need is identified, such as:
 
 - Expensive or frequently repeated catalog queries
 - Distributed caching
-- Distributed Rate limiting
+- Distributed rate limiting
 - Distributed state
 - Performance requirements not efficiently addressed by PostgreSQL
 
