@@ -155,7 +155,7 @@ Persistence-related implementations will reside in the `TCGBase.Infrastructure` 
 
 The `Domain` and `Application` projects must not depend directly on PostgreSQL-specific infrastructure.
 
-Entity Framework Core dependencies should remain outside the Domain layer.
+Entity Framework Core dependencies should remain outside the Domain and Application layer.
 
 ---
 
@@ -243,7 +243,7 @@ Redis may be introduced if a measurable need is identified, such as:
 
 - Expensive or frequently repeated catalog queries
 - Distributed caching
-- Rate limiting
+- Distributed Rate limiting
 - Distributed state
 - Performance requirements not efficiently addressed by PostgreSQL
 
